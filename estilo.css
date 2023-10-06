@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bloque-principal {
+    background-color:rgb(185, 72, 185); /* Color de fondo violeta */
+    color: white; /* Color de texto blanco */
+    padding: 60px; /* Espacio interno para el contenido */
+    text-align: center; /* Centrar el contenido horizontalmente */
+    font-size: 24px; /* Tamaño de fuente, puedes ajustar el valor según tus preferencias */
+    border: 4px solid white; /* Borde violeta de 2px */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif; /* Cambiar la fuente, puedes usar otra fuente en lugar de Arial */
+  }
+  .bloque-principal img {
+    border-radius: 40%; /* Redondear la imagen */
+  }
+
+  
+  .primer-bloque {
+    background-color: #777; /* Color de fondo gris */
+    color: white; /* Color de texto blanco */
+    padding: 60px; /* Espacio interno para separar el contenido del borde */
+    
+}
+
+.primer-bloque h2 {
+    font-size: 24px; /* Tamaño de fuente para el título */
+    text-align: center;
+}
+
+.primer-bloque p.presentacion {
+    font-size: 18px; /* Tamaño de fuente para el párrafo */
+}
+
+
+/* Estilos para el bloque .Aptitudes */
+.Aptitudes {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para el título */
+.Aptitudes h2 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Agregar espacio después del título */
+}
+
+/* Estilos para la lista de imágenes */
+.tech-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Agregar espacio antes de las imágenes */
+    margin-bottom: 20px; /* Agregar espacio después de las imágenes */
+}
+
+/* Estilos para las imágenes */
+.tech-list img {
+    width: 10%;
+    margin: 0 10px;
+}
+
+/* Estilos para la lista ul */
+ul {
+    list-style-position: inside; /* Mueve los guiones al interior de la lista */
+    padding-left: 2; /* Elimina el margen izquierdo predeterminado de la lista */
+}
+
+/* Estilos para los elementos de la lista li */
+li {
+    text-align: center; /* Alinear el texto de la lista a la izquierda */
+}
+
