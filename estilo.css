@@ -74,3 +74,83 @@ li {
     text-align: center; /* Alinear el texto de la lista a la izquierda */
 }
 
+
+.proyectos {
+    background-color: #303030;
+    padding: 20px 0; /* Añadir espacio arriba y abajo */
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.proyectos h2 {
+    font-size: 24px;
+    margin-top: 0;
+    padding-bottom: 20px; /* Espacio debajo del título */
+}
+
+.proyecto {
+    width: 80%;
+    margin: 0 auto; /* Centrar el contenedor */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    width: calc(25% - 20px);
+    margin: 10px;
+    border: solid #F2F2F2 1px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: transform 0.2s ease-in-out; /* Agregado para efecto de transición */
+}
+
+.card img {
+    width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de escala al pasar el mouse */
+}
+
+.proyectos .card a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(185, 72, 185);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.proyectos .card a:hover {
+    background-color: rgb(104, 53, 104);
+}
+/* Estilos para el footer */
+footer {
+    background-color: #fff; /* Fondo blanco */
+    color: #303030; /* Texto oscuro */
+    text-align: center;
+    padding: 40px; /* Aumenta el espacio interno para hacerlo más grande */
+}
+
+/* Estilos para el título "Contactame" */
+footer h2 {
+    font-size: 28px; /* Tamaño de fuente más grande */
+    margin-bottom: 20px; /* Mayor espacio inferior */
+}
+
+/* Estilos para los íconos de redes sociales */
+footer .red-social {
+    width: 60px; /* Aumenta el tamaño de los íconos */
+    margin: 0 20px; /* Mayor espacio entre los íconos */
+    transition: transform 0.3s ease;
+}
+
+/* Estilos para cambiar el tamaño de los íconos al pasar el ratón sobre ellos */
+footer .red-social:hover {
+    transform: scale(1.2); /* Escala un 20% al pasar el ratón sobre los íconos */
+}
